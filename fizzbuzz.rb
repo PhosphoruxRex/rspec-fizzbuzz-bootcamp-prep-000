@@ -2,7 +2,8 @@
 # See README.md for instructions on how to do this
 require 'pry'
 
-def fizzbuzz(binding.pry)
+def fizzbuzz(num)
+  binding.pry
   if num % 3 == 0 && num % 5 == 0
     return "FizzBuzz"
   elsif num % 5 == 0
