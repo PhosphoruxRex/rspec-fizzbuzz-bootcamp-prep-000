@@ -3,7 +3,6 @@
 require 'pry'
 
 def fizzbuzz(num)
-  binding.pry
   if num % 3 == 0 && num % 5 == 0
     return "FizzBuzz"
   elsif num % 5 == 0
@@ -12,3 +11,5 @@ def fizzbuzz(num)
     return "Fizz"
   end
 end
+
+binding.pry
